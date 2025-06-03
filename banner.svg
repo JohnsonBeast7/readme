@@ -1,0 +1,85 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#181A2A"/>
+      <stop offset="1" stop-color="#232946"/>
+    </linearGradient>
+    <filter id="glow" width="300%" height="300%" x="-100%" y="-100%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bgGradient)"/>
+  <!-- Nome -->
+  <text x="60" y="80" font-size="44" font-family="Segoe UI, Arial, sans-serif" fill="#FF9100" font-weight="bold" filter="url(#glow)">
+    João Ferraresi
+  </text>
+  <!-- Título -->
+  <text x="60" y="130" font-size="28" font-family="Segoe UI, Arial, sans-serif" fill="#3CAEFF">
+    Desenvolvedor Web | Apaixonado por Tecnologia &amp; Jogos
+  </text>
+  <!-- Ícones -->
+  <!-- HTML5 -->
+  <g>
+    <rect x="60" y="180" width="48" height="48" rx="8" fill="#22223B" />
+    <svg x="70" y="190" width="28" height="28" viewBox="0 0 32 32">
+      <path d="M6 4L8.7 28.3 16 30 23.3 28.3 26 4z" fill="#E44D26"/>
+      <path d="M16 27.1V6.2h7.2l-1.9 19.2z" fill="#F16529"/>
+      <path d="M16 14.3h-3.6l.2 2.3h3.4v2.2h-5.9l-.6-6.3h6.5V14.3z" fill="#EBEBEB"/>
+      <path d="M16 20.1v2.2l-3.1-.8-.2-2.2z" fill="#EBEBEB"/>
+      <path d="M16 14.3v-2.2h6.2l-.2 2.3H16v2.2h3.3l-.2 2.3H16v2.2l3.1-.8.2-2.2z" fill="#FFF"/>
+    </svg>
+  </g>
+  <!-- CSS3 -->
+  <g>
+    <rect x="120" y="180" width="48" height="48" rx="8" fill="#22223B"/>
+    <svg x="130" y="190" width="28" height="28" viewBox="0 0 32 32">
+      <path d="M6 4l2.7 24.3L16 30l7.3-1.7L26 4z" fill="#2965F1"/>
+      <path d="M16 27.1V6.1h7.2l-1.9 19.2z" fill="#264DE4"/>
+      <path d="M16 14.3h-3.6l.2 2.3h3.4v2.2h-5.9l-.6-6.3h6.5V14.3z" fill="#EBEBEB"/>
+      <path d="M16 20.1v2.2l-3.1-.8-.2-2.2z" fill="#EBEBEB"/>
+      <path d="M16 14.3v-2.2h6.2l-.2 2.3H16v2.2h3.3l-.2 2.3H16v2.2l3.1-.8.2-2.2z" fill="#FFF"/>
+    </svg>
+  </g>
+  <!-- Python -->
+  <g>
+    <rect x="180" y="180" width="48" height="48" rx="8" fill="#22223B"/>
+    <svg x="190" y="190" width="28" height="28" viewBox="0 0 32 32">
+      <linearGradient id="python1" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="#FFD43B"/>
+        <stop offset="1" stop-color="#FFE873"/>
+      </linearGradient>
+      <linearGradient id="python2" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="#306998"/>
+        <stop offset="1" stop-color="#41A4D9"/>
+      </linearGradient>
+      <path d="M16.1 6c-3.5 0-3.5 1.5-3.5 1.5v3.1h7v1.6h-9.2c-2.7 0-2.7 2.2-2.7 2.2v3s0 2.2 2.7 2.2h1.1v-1.5H9.9V14h7v3.2s0 1.5-3.5 1.5c-3.5 0-3.5-1.5-3.5-1.5V14H2.5v3.9c0 2.7 2.7 2.7 2.7 2.7h13.6c2.7 0 2.7-2.7 2.7-2.7v-3.9H16.1z" fill="url(#python1)"/>
+      <circle cx="19" cy="10" r="1.2" fill="#22223B"/>
+      <path d="M15.9 26c3.5 0 3.5-1.5 3.5-1.5v-3.1h-7v-1.6h9.2c2.7 0 2.7-2.2 2.7-2.2v-3s0-2.2-2.7-2.2h-1.1v1.5h2.1V18h-7v-3.2s0-1.5 3.5-1.5c3.5 0 3.5 1.5 3.5 1.5V18h7.1v-3.9c0-2.7-2.7-2.7-2.7-2.7H6.4c-2.7 0-2.7 2.7-2.7 2.7V18h9.2z" fill="url(#python2)"/>
+      <circle cx="13" cy="22" r="1.2" fill="#22223B"/>
+    </svg>
+  </g>
+  <!-- PHP -->
+  <g>
+    <rect x="240" y="180" width="48" height="48" rx="8" fill="#22223B"/>
+    <svg x="250" y="190" width="28" height="28" viewBox="0 0 32 32">
+      <ellipse cx="16" cy="16" rx="14" ry="10" fill="#777BB4"/>
+      <text x="5" y="22" font-size="11" font-family="Segoe UI, Arial, sans-serif" fill="#fff" font-weight="bold">PHP</text>
+    </svg>
+  </g>
+  <!-- Controle de videogame estilizado -->
+  <g>
+    <rect x="320" y="185" rx="18" ry="18" width="68" height="38" fill="#232946" stroke="#FF9100" stroke-width="3"/>
+    <circle cx="340" cy="204" r="8" fill="#3CAEFF"/>
+    <circle cx="366" cy="204" r="8" fill="#FF9100"/>
+    <rect x="349" y="193" width="8" height="22" rx="3" fill="#fff" opacity="0.7"/>
+    <rect x="333" y="195" width="4" height="15" rx="2" fill="#fff" opacity="0.6"/>
+    <rect x="375" y="195" width="4" height="15" rx="2" fill="#fff" opacity="0.6"/>
+  </g>
+  <!-- Brilho decorativo -->
+  <ellipse cx="1000" cy="60" rx="150" ry="30" fill="#3CAEFF" opacity="0.15"/>
+  <ellipse cx="1000" cy="260" rx="100" ry="18" fill="#FF9100" opacity="0.12"/>
+</svg>
