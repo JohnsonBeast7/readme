@@ -1,9 +1,8 @@
-# sobre mim
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Olá%2C+sou+João+Ferraresi!;Desenvolvedor+Web+apaixonado+por+tecnologia;Estagiário+%7C+HTML%2C+CSS%2C+Python%2C+PHP;Pro+em+FPS+🎮;Bem-vindo+ao+meu+GitHub!" alt="Typing SVG Banner" />
+  <img src="https://github.com/JohnsonBeast7/JohnsonBeast7/blob/main/banner.svg" alt="João Ferraresi Banner"/>
 </p>
 
-<h1 align="center">Olá, eu sou o João Pedro Ferraresi 👋 </h1>
+<h1 align="center">Olá, eu sou o João Ferraresi 👋 </h1>
 <h3 align="center">Desenvolvedor Web em início de carreira & Estagiário apaixonado por tecnologia</h3>
 
 <p align="center">
@@ -16,7 +15,6 @@
 
 - 💻 Atualmente, sou estagiário em desenvolvimento web, dando meus primeiros passos no mundo da programação.
 - 🌱 Estou aprendendo e aprimorando meus conhecimentos em **HTML** e **CSS**, além de explorar **Python** e **PHP**.
-- 🏆 Orgulhoso do meu primeiro repositório: [projeto-trabalho](https://github.com/JohnsonBeast7/projeto-trabalho)
 
 ---
 
